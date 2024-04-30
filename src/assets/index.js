@@ -14,7 +14,7 @@ import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
-
+import nextJs from "./tech/nextJs.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -35,6 +35,7 @@ export {
   mongodb,
   nodejs,
   reactjs,
+  nextJs,
   tailwind,
   carrent,
   jobit,

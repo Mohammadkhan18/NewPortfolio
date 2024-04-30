@@ -6,6 +6,7 @@ import {
     javascript,
     html,
     css,
+    nextJs,
     reactjs,
     tailwind,
     nodejs,
@@ -68,6 +69,10 @@ import {
       icon: reactjs,
     },
     {
+      name: "Next JS",
+      icon: nextJs,
+    },
+    {
       name: "Tailwind CSS",
       icon: tailwind,
     },
@@ -90,11 +95,11 @@ import {
   const testimonials = [
     {
       testimonial:
-        "It was great working with Mohammad,a web developer who truly cares about their clients' success ",
-      name: "dr-chandrashekar",
+        "It was great working with Mohammad Khan,Web developer who truly cares about their clients success ",
+      name: "Dr.Chandrashekar",
       designation: "Ex-Director",
       company: "DRDO",
-      image: "https://randomuser.me/api/portraits/women/4.jpg",
+      image: "",
     },
     // {
     //   testimonial:
@@ -116,7 +121,7 @@ import {
   
   const projects = [
     {
-      name: "StudyGenius",
+      name: "CourseStack",
       description:
         "E-Learning platform with course creation and publication for instructors, utilizing Razorpay for secure payments and Cloudinary for thumbnail storage.",
       tags: [
