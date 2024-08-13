@@ -15,6 +15,8 @@ import {
     carrent,
     jobit,
     tripguide,
+    express,
+    firebase
   } from "../assets";
   
   export const navLinks = [
@@ -24,7 +26,7 @@ import {
     },
     {
       id: "project",
-      title: "Projects",
+      title: "Project",
     },
     {
       id: "contact",
@@ -38,11 +40,11 @@ import {
       icon: web,
     },
     {
-      title: "Frontend Developer",
+      title: "MERN Developer",
       icon: mobile,
     },
     {
-      title: "Backend Developer",
+      title: "Next.Js Developer",
       icon: backend,
     },
     {
@@ -81,8 +83,16 @@ import {
       icon: nodejs,
     },
     {
+      name: "Express JS",
+      icon: express,
+    },
+    {
       name: "MongoDB",
       icon: mongodb,
+    },
+    {
+      name: "Firebase",
+      icon: firebase,
     },
     {
       name: "git",
@@ -99,6 +109,14 @@ import {
       name: "Dr.Chandrashekar",
       designation: "Ex-Director",
       company: "DRDO",
+      image: "",
+    },
+    {
+      testimonial:
+        "Working with Mohammad was a game-changer. His expertise in React.js and Next.js, coupled with his attention to detail, resulted in a highly responsive and user-friendly interface is great.",
+      name: "Mohd Moiz",
+      designation: "Co-Founder",
+      company: "GazetBot",
       image: "",
     },
     // {
@@ -137,9 +155,13 @@ import {
           name: "express",
           color: "pink-text-gradient",
         },
+        {
+          name: "node",
+          color: "orange-text-gradient",
+        },
       ],
       image: carrent,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://coursestack.vercel.app/",
     },
     {
       name: "MeTube",
@@ -153,6 +175,10 @@ import {
         {
           name: "restapi",
           color: "green-text-gradient",
+        },
+        {
+          name: "Material UI",
+          color: "pink-text-gradient",
         },
       ],
       image: jobit,
