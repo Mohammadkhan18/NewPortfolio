@@ -15,7 +15,8 @@ import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
 import nextJs from "./tech/nextJs.png";
-
+import firebase from "./tech/firebase.png";
+import express from "./tech/expressLogo.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
@@ -36,6 +37,8 @@ export {
   nodejs,
   reactjs,
   nextJs,
+  express,
+  firebase,
   tailwind,
   carrent,
   jobit,

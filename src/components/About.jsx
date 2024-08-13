@@ -47,10 +47,13 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-        I'M a skilled software developer with experience in JavaScript, and expertise in frameworks like Next,React.js and Etc. 
-        I'M a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+       I’m a Skilled Software Developer with a strong foundation in JavaScript and expertise in frameworks like React.js, Next.js, and TypeScript.
+        With hands-on experience in building and optimizing dynamic web applications, 
+        I’ve successfully delivered projects that enhance user engagement and improve overall performance. 
+        Whether it's developing feature-rich platforms like e-commerce sites or creating intuitive user interfaces, 
+        I bring a keen eye for detail and a passion for creating scalable, user-friendly solutions. 
+        I'm a quick learner who collaborates closely with clients and cross-functional teams to bring innovative ideas to life, always aiming to solve real-world problems with cutting-edge technology. 
+        Let’s work together to turn your vision into reality!
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
