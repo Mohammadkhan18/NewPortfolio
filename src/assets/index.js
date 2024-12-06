@@ -20,6 +20,9 @@ import express from "./tech/expressLogo.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import Pdlogo from "./company/PdLogo.jpg";
+import GbLogo from "./company/Gblogo.png";
+import SpLogo from "./company/SpLogo.png"
 
 export {
   backend,
@@ -43,4 +46,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  Pdlogo,
+  SpLogo,
+  GbLogo
 };
