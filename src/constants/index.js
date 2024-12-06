@@ -16,7 +16,10 @@ import {
     jobit,
     tripguide,
     express,
-    firebase
+    firebase,
+    GbLogo,
+    SpLogo,
+    Pdlogo
   } from "../assets";
   
   export const navLinks = [
@@ -52,6 +55,47 @@ import {
       icon: creator,
     },
   ];
+
+  const experiences = [
+    {
+      title: "Freelancer",
+      company_name: "ScanProperly",
+      icon: SpLogo,
+      iconBg: "#E6DEDD",
+      date: "Oct 2024 - Nov 2024",
+      points: [
+        "Developed a firm comparison platform with an admin panel using Next.js, TypeScript, MongoDB, AWS, and Express, improving data processing speed for company comparisons by 30%.",
+        "Built CRUD functionality for companies and blogs, enhancing content management efficiency and reducing data entry time by 40%.",
+        "Implemented user registration and advanced company filtering with Redux, increasing user engagement by 25%, while designing a fully responsive UI that boosted mobile user traffic by 20%.",
+      ],
+    },
+    {
+      title: "Freelancer",
+      company_name: "GazetBot",
+      icon: GbLogo,
+      iconBg: "#383E56",
+      date: "July 2024 - Aug 2024",
+      points: [
+        "Architected a dynamic and responsive user interface with the Next.js and firebase which has Wishlist and product comparison functionalities, directly leading to a 15% increase in customer retention.",
+        "Created a multi-layered user authentication system using Firebase, integrating OAuth to facilitate Google sign-ins, which reduced user onboarding time by 25% and improved overall user retention rates.",
+        "Developed an advanced search and filter system allowing users to find products based on categories and price 25% increase in user interactions on the site.",
+      ],
+    },
+    {
+      title: "Full Stack Developer",
+      company_name: "Provoke Developers",
+      icon: Pdlogo,
+      iconBg: "#E6DEDD",
+      date: "January 2024 - March 2024e",
+      points: [
+        "Engineered a fully responsive Courses Page utilizing the MERN stack, Next.js, and TypeScript; led to an increase in user interaction by 500+ daily visits as users engaged with new features.",
+        "Implemented robust authentication solutions with Firebase, utilizing cookies and tokens to ensure secure access.",
+        "Worked collaboratively with cross-functional teams to conceptualize, build, and launch new features, resulting in a 15% boost in team productivity and smooth integration of deliverables.",
+        "Participating in code reviews and providing constructive feedback to other developers.",
+      ],
+    },
+  ];
+  
   
   const technologies = [
     {
@@ -117,6 +161,14 @@ import {
       name: "Mohd Moiz",
       designation: "Co-Founder",
       company: "GazetBot",
+      image: "",
+    },
+    {
+      testimonial:
+        "Khan exceeded expectations with ScanProperly! He built an efficient, feature-rich platform with a responsive design, showcasing great professionalism and technical expertise. Excellent communication and timely delivery—highly recommend for any project!",
+      name: "Pratham Surani",
+      designation: "Founder",
+      company: "Scanproperly",
       image: "",
     },
     // {
@@ -203,4 +255,4 @@ import {
     },
   ];
   
-  export { services, technologies, testimonials, projects };
+  export { services, technologies, testimonials, projects,experiences };
