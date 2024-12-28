@@ -19,13 +19,18 @@ import {
     firebase,
     GbLogo,
     SpLogo,
-    Pdlogo
+    Pdlogo,
+    high
   } from "../assets";
   
   export const navLinks = [
     {
       id: "about",
       title: "About",
+    },
+    {
+      id:'work',
+      title:'Experience'
     },
     {
       id: "project",
@@ -214,6 +219,31 @@ import {
       ],
       image: carrent,
       source_code_link: "https://coursestack.vercel.app/",
+    },
+    {
+      name: "High",
+      description:
+        "Built a platform for publishing articles and managing user profiles with features like secure authentication, Markdown-supported article creation.",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Hono",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "PostgreSQL",
+          color: "green-text-gradient",
+        },
+        {
+          name: "TypeScript",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: high,
+      source_code_link: "https://high-blogsite-mohammadkhan18s-projects.vercel.app/",
     },
     {
       name: "MeTube",
