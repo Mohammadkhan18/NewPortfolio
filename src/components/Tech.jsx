@@ -4,6 +4,9 @@ import { SectionWrapper } from "../hoc";
 import { technologies } from "../constants";
 import Techstack from "./TechStack";
 import { motion } from "framer-motion";
+import { textVariant } from "../utils/motion";
+import { styles } from "../styles";
+
 
 const Tech = () => {
   return (
@@ -20,7 +23,7 @@ const Tech = () => {
           What skills i have developed so far
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
-          My Skillset.
+          My Skillset
         </h2>
       </motion.div>
       <Techstack/>
