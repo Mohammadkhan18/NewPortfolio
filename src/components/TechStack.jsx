@@ -27,7 +27,7 @@ import { IoPrism } from "react-icons/io5";
 
 function Techstack() {
   return (
-    <div className="grid sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-6 p-[50px] justify-center">
+    <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 p-[50px] justify-center">
       <div className="tech-icons">
       <DiJavascript1 />
       </div>
