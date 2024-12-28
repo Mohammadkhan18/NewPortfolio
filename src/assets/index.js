@@ -22,7 +22,8 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import Pdlogo from "./company/PdLogo.jpg";
 import GbLogo from "./company/Gblogo.png";
-import SpLogo from "./company/SpLogo.png"
+import SpLogo from "./company/SpLogo.png";
+import high from "./high.png"
 
 export {
   backend,
@@ -48,5 +49,6 @@ export {
   tripguide,
   Pdlogo,
   SpLogo,
-  GbLogo
+  GbLogo,
+  high
 };
