@@ -20,7 +20,9 @@ import {
     GbLogo,
     SpLogo,
     Pdlogo,
-    high
+    BsLogo,
+    high,
+    roomify
   } from "../assets";
   
   export const navLinks = [
@@ -62,6 +64,18 @@ import {
   ];
 
   const experiences = [
+    {
+      title: "Software Developer",
+      company_name: "Baisware",
+      icon: BsLogo,
+      iconBg: "#E6DEDD",
+      date: "Jan 2025 - Present",
+      points: [
+        "Developed and launched Baisware’s website using Next.js, Express.js, and MongoDB, improving site performance by 50% on Vercel, ensuring 99.9% uptime and reducing load time by 40%.",
+        "Built a dynamic admin panel enabling real-time job postings and resume submissions, streamlining recruitment and cutting manual processing time by 60%.",
+        "Implemented secure authentication and role-based access control, enhancing data security by 70%.Optimized the backend, reducing database query execution time by 35%, leading to faster data retrieval.",
+      ],
+    },
     {
       title: "Freelancer",
       company_name: "ScanProperly",
@@ -219,6 +233,31 @@ import {
       ],
       image: carrent,
       source_code_link: "https://coursestack.vercel.app/",
+    },
+    {
+      name: "Roomify",
+      description:
+        "A fully functional Airbnb clone with property listings, booking system, and user authentication, allowing hosts to manage listings and guests to book stays seamlessly.",
+      tags: [
+        {
+          name: "Next.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "Prisma",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Tailwind",
+          color: "pink-text-gradient",
+        },
+        {
+          name: "Cloudinary",
+          color: "orange-text-gradient",
+        },
+      ],
+      image: roomify,
+      source_code_link: "https://airbnb-clone01-puce.vercel.app/",
     },
     {
       name: "High",

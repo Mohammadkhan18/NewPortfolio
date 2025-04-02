@@ -23,6 +23,8 @@ import tripguide from "./tripguide.png";
 import Pdlogo from "./company/PdLogo.jpg";
 import GbLogo from "./company/Gblogo.png";
 import SpLogo from "./company/SpLogo.png";
+import BsLogo from "./company/BsLogo.png";
+import roomify from "./roomify.png";
 import high from "./high.png"
 
 export {
@@ -45,10 +47,12 @@ export {
   firebase,
   tailwind,
   carrent,
+  roomify,
   jobit,
   tripguide,
   Pdlogo,
   SpLogo,
   GbLogo,
+  BsLogo,
   high
 };
