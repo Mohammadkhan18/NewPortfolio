@@ -45,15 +45,16 @@ const About = () => {
 
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
-        className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
+        className='mt-4 text-secondary text-[17px] max-w-5xl leading-[30px]'
       >
-       I’m a Skilled Software Developer with a strong foundation in JavaScript and expertise in frameworks like React.js, Next.js, and TypeScript.
-        With hands-on experience in building and optimizing dynamic web applications, 
-        I’ve successfully delivered projects that enhance user engagement and improve overall performance. 
-        Whether it's developing feature-rich platforms like e-commerce sites or creating intuitive user interfaces, 
-        I bring a keen eye for detail and a passion for creating scalable, user-friendly solutions. 
-        I'm a quick learner who collaborates closely with clients and cross-functional teams to bring innovative ideas to life, always aiming to solve real-world problems with cutting-edge technology. 
-        Let’s work together to turn your vision into reality!
+       I’m a Skilled Software Developer with a robust foundation in JavaScript, specializing in React.js,
+       Next.js, React Native, and TypeScript. I build dynamic, high-performance web and mobile applications 
+        that improve user engagement—whether through optimized e‑commerce platforms or sleek mobile solutions.
+        My work consistently delivers measurable results, such as faster load times, smoother interfaces, and enhanced UX.
+        I’m a proactive, fast learner who thrives in cross-functional teams. I collaborate closely with 
+        clients and stakeholders to transform ideas into scalable, user‑friendly products that solve
+        real-world problems. Let’s bring your vision to life—whether that’s a feature-packed web platform or
+        an intuitive mobile app.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>

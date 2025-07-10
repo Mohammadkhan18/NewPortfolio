@@ -21,6 +21,7 @@ import {
     SpLogo,
     Pdlogo,
     BsLogo,
+    BvmcLogo,
     high,
     roomify
   } from "../assets";
@@ -58,7 +59,7 @@ import {
       icon: backend,
     },
     {
-      title: "Problem Solving",
+      title: "App Developer",
       icon: creator,
     },
   ];
@@ -76,6 +77,18 @@ import {
         "Implemented secure authentication and role-based access control, enhancing data security by 70%.Optimized the backend, reducing database query execution time by 35%, leading to faster data retrieval.",
       ],
     },
+      {
+    title: "Freelancer",
+    company_name: "BestValueManagmaentConsultancy",
+    icon: BvmcLogo, 
+    iconBg: "#E6DEDD",
+    date: "March 2025 - April 2025",
+    points: [
+      "Designed and developed a fully responsive e-commerce website for BestValueManagmentConsultancy using Next.js, Tailwind CSS, and Framer Motion, resulting in a 35% increase in visitor retention.",
+      "Delivered a smooth and modern user experience across devices by implementing custom animations, intuitive navigation, and optimized image handling.",
+      "Worked closely with the client to ensure brand consistency and seamless functionality, enabling a streamlined shopping experience and improving customer satisfaction.",
+    ],
+  },
     {
       title: "Freelancer",
       company_name: "ScanProperly",
@@ -92,7 +105,7 @@ import {
       title: "Freelancer",
       company_name: "GazetBot",
       icon: GbLogo,
-      iconBg: "#383E56",
+      iconBg: "#E6DEDD",
       date: "July 2024 - Aug 2024",
       points: [
         "Architected a dynamic and responsive user interface with the Next.js and firebase which has Wishlist and product comparison functionalities, directly leading to a 15% increase in customer retention.",
@@ -101,11 +114,11 @@ import {
       ],
     },
     {
-      title: "Full Stack Developer",
+      title: "Full Stack Intern",
       company_name: "Provoke Developers",
       icon: Pdlogo,
       iconBg: "#E6DEDD",
-      date: "January 2024 - March 2024e",
+      date: "January 2024 - March 2024",
       points: [
         "Engineered a fully responsive Courses Page utilizing the MERN stack, Next.js, and TypeScript; led to an increase in user interaction by 500+ daily visits as users engaged with new features.",
         "Implemented robust authentication solutions with Firebase, utilizing cookies and tokens to ensure secure access.",
@@ -190,6 +203,14 @@ import {
       company: "Scanproperly",
       image: "",
     },
+    {
+      testimonial:
+        "Our experience with Mohammad Khan was seamless from start to finish. He understood our brand, delivered a clean and user-friendly website, and provided smooth, hassle-free assistance throughout the entire process. Truly professional and reliable.",
+      name: "Best Value UAE Team",
+      designation: "Team",
+      company: "BVMC",
+      image: "", // Add image URL if you have one
+    }
     // {
     //   testimonial:
     //     "I've never met  like Rick does.",

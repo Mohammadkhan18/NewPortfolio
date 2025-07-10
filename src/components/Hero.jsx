@@ -20,6 +20,7 @@ const Hero = () => {
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
             B.Tech Graduate <br className='sm:block hidden' />
             MERN Developer <br className='sm:block hidden' />
+            React Native Developer <br className='sm:block hidden' />
             Freelancer
           </p>
         </div>

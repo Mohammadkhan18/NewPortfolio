@@ -24,6 +24,7 @@ import Pdlogo from "./company/PdLogo.jpg";
 import GbLogo from "./company/Gblogo.png";
 import SpLogo from "./company/SpLogo.png";
 import BsLogo from "./company/BsLogo.png";
+import BvmcLogo from "./company/BvmcLogo.png";
 import roomify from "./roomify.png";
 import high from "./high.png"
 
@@ -54,5 +55,6 @@ export {
   SpLogo,
   GbLogo,
   BsLogo,
+  BvmcLogo,
   high
 };
