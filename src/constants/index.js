@@ -12,7 +12,7 @@ import {
     nodejs,
     mongodb,
     git,
-    carrent,
+    courseStack,
     jobit,
     tripguide,
     express,
@@ -252,11 +252,11 @@ import {
           color: "orange-text-gradient",
         },
       ],
-      image: carrent,
+      image: courseStack,
       source_code_link: "https://coursestack.vercel.app/",
     },
     {
-      name: "Roomify",
+      name: "Airbnb",
       description:
         "A fully functional Airbnb clone with property listings, booking system, and user authentication, allowing hosts to manage listings and guests to book stays seamlessly.",
       tags: [

@@ -17,7 +17,7 @@ import tailwind from "./tech/tailwind.png";
 import nextJs from "./tech/nextJs.png";
 import firebase from "./tech/firebase.png";
 import express from "./tech/expressLogo.png";
-import carrent from "./carrent.png";
+import courseStack from "./courseStack.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import Pdlogo from "./company/PdLogo.jpg";
@@ -47,7 +47,7 @@ export {
   express,
   firebase,
   tailwind,
-  carrent,
+  courseStack,
   roomify,
   jobit,
   tripguide,

@@ -47,14 +47,11 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-5xl leading-[30px]'
       >
-       I’m a Skilled Software Developer with a robust foundation in JavaScript, specializing in React.js,
-       Next.js, React Native, and TypeScript. I build dynamic, high-performance web and mobile applications 
-        that improve user engagement—whether through optimized e‑commerce platforms or sleek mobile solutions.
-        My work consistently delivers measurable results, such as faster load times, smoother interfaces, and enhanced UX.
-        I’m a proactive, fast learner who thrives in cross-functional teams. I collaborate closely with 
-        clients and stakeholders to transform ideas into scalable, user‑friendly products that solve
-        real-world problems. Let’s bring your vision to life—whether that’s a feature-packed web platform or
-        an intuitive mobile app.
+       I'm a Skilled Full Stack Developer with expertise in JavaScript, React.js, Next.js, React Native, and TypeScript.
+        I build dynamic, high-performance web and mobile applications that deliver measurable results—50% performance improvements, 40% faster load times, and enhanced user engagement.
+         With experience in both frontend and backend development using Express.js and Nest.js, I create scalable, secure applications with robust APIs and optimized databases. 
+         I'm a proactive, fast learner who thrives in cross-functional teams, collaborating closely with stakeholders to transform ideas into user-friendly products that solve real-world problems. 
+         Let's bring your vision to life.
       </motion.p>
 
       <div className='mt-20 flex flex-wrap gap-10'>
